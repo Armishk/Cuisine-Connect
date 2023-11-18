@@ -7,6 +7,6 @@ Introducing Cuisine-Connect, your go-to destination for exploring your area's di
 https://1drv.ms/p/c/68f50c54f2dd22dd/Ed0i3fJUDPUggGhYAQAAAAABuPJzySnyR_G609J3gwh-mg
 
 ## Preview
-
+<img width="755" alt="Screenshot 2023-11-17 at 7 05 53 PM" src="https://github.com/Armishk/Cuisine-Connect/assets/134334179/586b20be-d6ef-4709-9b31-be12e8af6962">
 ## License
 Please refer to the LICENSE in the repo.
