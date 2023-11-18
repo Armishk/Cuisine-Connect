@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+  header {
+    background-color: #000000;
+    height: 150px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+  h1 {
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+    h2 {
+    margin-top: 0px;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+  }
+
+
+  nav {
+    background-color: rgb(145, 58, 29);
+    height: 70px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+ }
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+  display: block;  
+  font-size: 20px;
+  font-weight:600;
+  padding: 50px 25px;
+  text-decoration: none;
+}
+
+ 
+ul li a:hover {
+    background: rgba(255, 255, 255, 0.515);
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 75%;
+    padding:10px 0 10px 20px;
+  }
+
+  .box {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px ;
+    position: relative;
+    border-radius: 20px;
+    border: solid #000000;
+
+  }
+
+  .box-image {
+    background-size: cover;
+    margin-right: 10px;
+    border: 2px solid black;
+}
+
+p {
+    margin-left: 30px;
+}
+
+.box a {
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
+    text-decoration: none;
+    color: #fff; 
+    background-color: #000000; 
+    padding: 5px 10px; 
+    border-radius: 20px; 
+}
+
+.box a:hover{
+    background-color: rgb(145, 58, 29);
+    color: white;
+    font-weight: bold;
+
+}
+
+  .box-1 {
+    background-image: url(https://s3-media0.fl.yelpcdn.com/bphoto/y5JMnO-7riep0-HmDisqzA/o.jpg);
+    height: 170px;
+    width: 200px;
+  }
+  
+  .box-2 {
+    background-image: url(https://s3-media0.fl.yelpcdn.com/bphoto/BVpI3XCV9HzlTzQ1r01axw/o.jpg);
+    height: 170px;
+    width: 250px;
+  }
+
+
+  .box-3{
+    background-image: url(https://www.indianhealthyrecipes.com/wp-content/uploads/2021/09/cooker-cake-recipe.jpg);
+    height: 170px;
+    width: 380px;
+  }
+
+
+  .bar-image {
+    background-size: cover;
+    align-content: center;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    border: 2px solid black;
+}
+
+
+  .box-4{
+    background-image: url(https://s3-media0.fl.yelpcdn.com/bphoto/_hPuxpijUFgKwsZjJ7UDZQ/348s.jpg);
+    height: 200px;
+    width: 200px;
+  }
+
+
+  .box-5{
+    background-image: url(https://s3-media0.fl.yelpcdn.com/bphoto/5y234xVPSlmCoXIHptr2FA/o.jpg);
+    height: 200px;
+    width: 200px;
+  }
+
+  .box-6 {
+      background-image: url(https://s3-media0.fl.yelpcdn.com/bphoto/ylH6yfr_giXZSLGPvLajfA/o.jpg);
+      height: 200px;
+      width: 200px;
+  }
+
+  h4{
+    position: absolute;
+    bottom: 10px; 
+    right: 190px; 
+    text-decoration: none;
+    color: #000000; 
+    justify-content: center;
+   
+  }
+  
+  #page {
+    display: flex;
+  }
+  
+  #content {
+    width: 70%;
+    background: rgb(49, 86, 46); 
+  }
+  
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 174, 0);
+    flex: 1 0 auto;
+}
+
+#sidebar a{
+    position: relative;
+    left: 100px; 
+    align-self: center;
+    text-decoration: none;
+    color: #fff; 
+    background-color: #000000; 
+    padding: 5px 10px; 
+    border-radius: 20px; 
+}
+
+#sidebar a:hover{
+    background-color: rgb(49, 86, 46);
+    color: white;
+    font-weight: bold;
+}
+
+#sidebar .bar-image {
+    background-size: cover;
+    margin: 0 auto; 
+    display: block; 
+    border: 2px solid black;
+}
